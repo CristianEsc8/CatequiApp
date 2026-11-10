@@ -1,0 +1,46 @@
+{
+  "name": "academic-system-example",
+  "version": "0.0.1",
+  "description": "Web application example",
+  "keywords": [
+    "JavaScript",
+    "Node"
+  ],
+  "homepage": "https://github.com/Cristianco9/academic-system-example#readme",
+  "bugs": {
+    "url": "https://github.com/Cristianco9/academic-system-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristianco9/academic-system-example.git"
+  },
+  "license": "MIT",
+  "author": "Cristian Camilo Cortes Ortiz<cristian_cortes_ortiz@hotmail.com>",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "dev-dep": "npm install && npm install nodemon morgan eslint eslint-config-prettier eslint-plugin-prettier prettier --save-dev -D",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-prettier": "^5.5.7",
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.10"
+  }
+}
